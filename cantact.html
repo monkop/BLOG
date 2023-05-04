@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+      /* Contact Form */
+      .form {
+        max-width: 600px;
+        margin: 50px auto;
+        padding: 20px;
+        background-color: #fff;
+        border-radius: 5px;
+        box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+      }
+      .form h2 {
+        text-align: center;
+        margin-bottom: 20px;
+      }
+      .form input[type="text"],
+      .form input[type="email"],
+      .form textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+        font-size: 16px;
+      }
+      .form textarea {
+        height: 150px;
+        resize: vertical;
+      }
+      .form button[type="submit"] {
+        background-color: #333;
+        color: #fff;
+        font-size: 16px;
+        font-weight: bold;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      .form button[type="submit"]:hover {
+        background-color: #fff;
+        color: #333;
+      }
+      /* Contact Information */
+      .info {
+        max-width: 600px;
+        margin: 50px auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .info h2 {
+        margin: 0;
+      }
+      .info p {
+        margin: 0;
+      }
+      .info ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+      }
+      .info li {
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+
+    <nav>
+      <div class="nav-container">
+        <div class="logo">
+          <a href="#">MonkOp Blog</a>
+        </div>
+        <div class="nav-links">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="cantact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Search...">
+            <button>Go</button>
+          </div>
+      </div>
+    </nav>
+    
+    <div class="form">
+      <h2>Contact Us</h2>
+      <form>
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+    <div class="info">
+      <div>
+        <h2>Our Address</h2>
+        <p>123 Main Street</p>
+        <p>Anytown, USA 12345</p>
+      </div>
+      <div>
+        <h2>Phone</h2>
+        <p>(123) 456-7890</p>
+      </div>
+      <div>
+        <h2>Email</h2>
+        <p>contact@website.com</p>
+      </div>
+    </div>
+  </body>
+</html>

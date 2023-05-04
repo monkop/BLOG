@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Blog</title>
+        <link rel="stylesheet" href="style.css">
+        <style>
+      /* Blog Page */
+      .container {
+        max-width: 800px;
+        margin: 50px auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        grid-gap: 20px;
+      }
+      .card {
+        border-radius: 5px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        transition: 0.3s;
+        padding: 20px;
+        background-color: #fff;
+      }
+      .card:hover {
+        box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+      }
+      .card img {
+        width: 100%;
+        border-radius: 5px;
+        margin-bottom: 10px;
+      }
+      .card h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      .card p {
+        font-size: 16px;
+        line-height: 1.5;
+      }
+      .card button {
+        border: none;
+        outline: none;
+        padding: 8px 16px;
+        background-color: #4CAF50;
+        color: #fff;
+        font-size: 16px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+      }
+      .card button:hover {
+        background-color: #3e8e41;
+      }
+    </style>
+    </head>
+    <body>
+
+      <nav>
+        <div class="nav-container">
+          <div class="logo">
+            <a href="#">MonkOp Blog</a>
+          </div>
+          <div class="nav-links">
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="blog.html">Blog</a></li>
+              <li><a href="cantact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="search">
+              <input type="text" placeholder="Search...">
+              <button>Go</button>
+            </div>
+        </div>
+      </nav>
+      
+        <div class="container">
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Blog Image">
+                <h2>Blog Post Title 1</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Fusce imperdiet sapien a lacinia sagittis. Sed et quam eu
+                    turpis efficitur congue non eu eros. Ut varius imperdiet
+                    arcu, vitae congue turpis eleifend id.</p>
+                <button>Read More</button>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Blog Image">
+                <h2>Blog Post Title 2</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Fusce imperdiet sapien a lacinia sagittis. Sed et quam eu
+                    turpis efficitur congue non eu eros. Ut varius imperdiet
+                    arcu, vitae congue turpis eleifend id.</p>
+                <button>Read More</button>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Blog Image">
+                <h2>Blog Post Title 3</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Fusce imperdiet sapien a lacinia sagittis. Sed et quam eu
+                    turpis efficitur congue non eu eros. Ut varius imperdiet
+                    arcu, vitae congue turpis eleifend id.</p>
+                <button>Read More</button>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Blog Image">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Fusce imperdiet sapien a lacinia sagittis. Sed et quam eu
+                    turpis efficitur congue non eu eros. Ut varius imperdiet
+                    arcu, vitae congue turpis eleifend id.</p>
+                <button>Read More</button>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Blog Image">
+                <h2>Blog Post Title 5</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Fusce imperdiet sapien a lacinia sagittis. Sed et quam eu
+                    turpis efficitur congue non eu eros. Ut varius imperdiet
+                    arcu, vitae congue turpis eleifend id.</p>
+                <button>Read More</button>
+            </div>
+            <div class="card">
+                <img src="https://via.placeholder.com/300x200" alt="Blog Image">
+                <h2>Blog Post Title 6</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Fusce imperdiet sapien a lacinia sagittis. Sed et quam eu
+                    turpis efficitur congue non eu eros. Ut varius imperdiet
+                    arcu, vitae congue turpis eleifend id.</p>
+                <button>Read More</button>
+            </div>
+        </div>
+
+    </body>
+</html>
